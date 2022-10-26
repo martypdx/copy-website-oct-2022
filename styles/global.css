@@ -8,6 +8,7 @@
 body {
     display: grid;
     grid-template-rows: 205px 1fr;
+    font-family: var(--primary-font);
 }
 
 header {
@@ -21,6 +22,14 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+#categories a {
+    white-space: nowrap;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 
 main {
@@ -58,6 +67,7 @@ main {
     margin: 0;
     text-align: center;
 }
+
 #product-description {
     background: orange;
 }
